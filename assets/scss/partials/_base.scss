@@ -88,11 +88,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .button {
-  background-color: #174a27;
+  // background-color: #174a27;
+  background-color: rgba(23, 74, 39, 0.8);
 }
 
 .button:hover, .button:focus {
-  background-color: #379c56;
+  // background-color: #379c56;
+  background-color: rgba(55, 156, 86, 0.8);
 }
 
 ._hr {
@@ -103,7 +105,24 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
-.my_class {
-  display: flex;
-  align-items: center;
+._my-img {
+  // display: flex;
+  // align-items: center;
+  // display: inline;
+  // background-image: url("../img/aloe.gif");
+  // width: 100px;
 }
+
+._my-class {
+  max-width: 50rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: $skin-mono1;
+}
+
+
+

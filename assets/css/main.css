@@ -26,15 +26,30 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .button {
-  background-color: #174a27;
+  background-color: rgba(23, 74, 39, 0.8);
 }
 
 .button:hover, .button:focus {
-  background-color: #379c56;
+  background-color: rgba(55, 156, 86, 0.8);
 }
 
 ._hr {
   margin: 1.25rem auto;
+}
+
+._img-centerv {
+  text-align: center;
+}
+
+._my-class {
+  max-width: 50rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #1f1705;
 }
 
 /**
