@@ -6,7 +6,7 @@
     <title>Georges Garden Shop | Welcome</title>
     <link rel="icon" href="assets/img/plant_24.ico">
     <link rel="stylesheet" href="assets/css/app.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/motion-ui@1.2.3/dist/motion-ui.min.css" />
+    <link rel="stylesheet" href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Patua+One&display=swap" rel="stylesheet">
     <!-- <link rel="stylesheet" href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css"> -->
@@ -33,22 +33,25 @@
           </ul>
         </div>
         <div class="top-bar-right">
-          <ul class="menu">
+          <!-- <ul class = "dropdown menu" data-dropdown-menu> -->
+            <ul class="menu">
             <li><a href="home.html">Home</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
+            <li>
+              <a href="products.html">Products</a>
+               <!-- <ul class = "menu">
+                <li><a href="#">Item 1</a></li>
+                <li><a href="#">Item 2</a></li>
+                <li><a href="#">Item 3</a></li>
+                <li><a href="#">Item 4</a></li>
+               </ul> -->
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+         </ul>
         </div>
       </div>
     </div>
     
     <!-- End Top Bar -->
-
-
-
-      
-
 
 
     <div class="callout large special">
@@ -162,7 +165,10 @@
                 
               </div>
               <div class="large-4 medium-4 cell text-center">
-                <img src="assets/img/plant_32.png">
+                <a href="#top">
+                  <img src="assets/img/plant_32.png">
+                </a>
+                
               </div>
               <div class="large-4 medium-4cell text-right">
                 
@@ -178,10 +184,10 @@
     
 
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.4.3/dist/js/foundation.min.js" integrity="sha256-mRYlCu5EG+ouD07WxLF8v4ZAZYCA6WrmdIXyn1Bv9Vk= sha384-KzKofw4qqetd3kvuQ5AdapWPqV1ZI+CnfyfEwZQgPk8poOLWaabfgJOfmW7uI+AV sha512-0gHfaMkY+Do568TgjJC2iMAV0dQlY4NqbeZ4pr9lVUTXQzKu8qceyd6wg/3Uql9qA2+3X5NHv3IMb05wb387rA==" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.4.3/dist/js/foundation.min.js" integrity="sha256-mRYlCu5EG+ouD07WxLF8v4ZAZYCA6WrmdIXyn1Bv9Vk= sha384-KzKofw4qqetd3kvuQ5AdapWPqV1ZI+CnfyfEwZQgPk8poOLWaabfgJOfmW7uI+AV sha512-0gHfaMkY+Do568TgjJC2iMAV0dQlY4NqbeZ4pr9lVUTXQzKu8qceyd6wg/3Uql9qA2+3X5NHv3IMb05wb387rA==" crossorigin="anonymous"></script> -->
 
-    <!-- <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script> -->    
-    <!-- <script src="assets/js/app.js"></script> -->
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>    
+    
 
     <script>
       $(document).foundation();

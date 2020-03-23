@@ -57,6 +57,19 @@ $skin-mono01:   $skin-base01;
 
 $background-color:      $skin-mono3 !default;
 
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+  display: block;
+  width: 50px;
+  height: 0;
+  border: inset 6px;
+  content: '';
+  border-bottom-width: 0;
+  border-top-style: solid;
+  border-color: #094707 transparent transparent;
+  right: 5px;
+  left: auto;
+  margin-top: -3px;
+}
 
 /**
  * Basic styling
@@ -75,6 +88,24 @@ $background-color:      $skin-mono3 !default;
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Patua One';
+}
+
+p {
+  color: #142308;
+}
+
+a {
+  // .stat {
+  // color: #123304;
+
+  // :hover {
+  //   color: #297c3f;
+  // }
+  color: #123304;
+
+  :hover {
+    color: #297c3f;
+  }
 }
 
 .callout.primary {
@@ -111,10 +142,12 @@ h1, h2, h3, h4, h5, h6 {
   // display: inline;
   // background-image: url("../img/aloe.gif");
   // width: 100px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 ._my-class {
-  max-width: 50rem;
+  max-width: 20rem;
   margin-left: auto;
   margin-right: auto;
 }
